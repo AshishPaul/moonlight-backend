@@ -1,0 +1,5 @@
+./gradlew buildImage
+
+./gradlew publishImage
+
+./gradlew jib --image zerogravitydesk/moonlight

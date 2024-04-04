@@ -1,0 +1,7 @@
+curl -X GET --location "http://127.0.0.1:8080/category" -H "Content-Type: application/json"
+
+curl -X POST --location "http://127.0.0.1:8080/category" -H "Content-Type: application/json" -d {"id":"cat01","title":"foo1","description":"bar1"}
+
+curl -X GET --location "http://127.0.0.1:8080/service" -H "Content-Type: application/json"
+
+curl -X POST --location "http://127.0.0.1:8080/service" -H "Content-Type: application/json" -d {"id":"ser01","categoryId":"cat01","title":"Service1","description":"Service1","price":20.30}
